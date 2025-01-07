@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Level 3.unity
     guid: 2cfeaeebfd0084e4eb9db968f4282048
   - enabled: 1
+    path: Assets/Character Select.unity
+    guid: a69f8880198bc324a8cb7ffef8675fc8
+  - enabled: 1
     path: Assets/Level 4.unity
     guid: 4199276a268dc3a47bc92c519e20a752
   m_configObjects:

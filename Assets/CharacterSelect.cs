@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movingthemovingsquare : MonoBehaviour
+public class CharacterSelect : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,10 @@ public class movingthemovingsquare : MonoBehaviour
     void Update()
     {
         
+    }
+    public void SetCarType(string carType)
+    {
+        PlayerPrefs.SetString("CarType", carType);
+        Debug.Log("Car Type Set");
     }
 }

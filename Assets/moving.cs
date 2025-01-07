@@ -16,6 +16,7 @@ public class Moving : MonoBehaviour
     private JointMotor2D backmotor;
     public GameObject finishLine;
     private bool canmove = true;
+    public SpriteRenderer spriteRenderer;
     
     public void MoveLeft(){
         if (speed >= -speedlimit){
@@ -37,6 +38,16 @@ public class Moving : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        string color = PlayerPrefs.GetString("carType");
+        if (color == "Red") {
+            spriteRenderer.color = Color.red;
+            Debug.Log("Car Type Set");
+        }
+
+        else if (color == "White") {
+            spriteRenderer.material.color = Color.red;
+        }
+        
     }
 
     // Update is called once per frame

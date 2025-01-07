@@ -2121,6 +2121,7 @@ MonoBehaviour:
   frontwheel: {fileID: 1580721065}
   backwheel: {fileID: 1580721066}
   finishLine: {fileID: 173843217}
+  spriteRenderer: {fileID: 1580721063}
 --- !u!1 &1739130432
 GameObject:
   m_ObjectHideFlags: 0
